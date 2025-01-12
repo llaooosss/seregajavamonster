@@ -69,6 +69,11 @@
             <input type="submit" value="Login" class="btn btn-primary btn-block">
             <h3 class="text-center text-danger mt-3">${msg}</h3>
         </form>
+
+        <!-- Keycloak login button -->
+        <div class="text-center mt-4">
+            <a href="/sso/login" class="btn btn-danger btn-block">Login with Keycloak</a>
+        </div>
     </div>
 </div>
 
